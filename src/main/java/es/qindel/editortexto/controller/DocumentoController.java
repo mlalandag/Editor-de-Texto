@@ -24,6 +24,8 @@ import es.qindel.editortexto.service.DocumentoService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
+import io.swagger.annotations.ApiResponse;
+import io.swagger.annotations.ApiResponses;
 
 @RestController
 @RequestMapping("editor-texto/1.0.0/documentos")
